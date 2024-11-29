@@ -1,0 +1,136 @@
+.user-details-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .user-details {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .user-name {
+    margin-top: -15px;
+    padding-left: 20px;
+    font-family: "Calibri", serif;
+    text-decoration: bold;
+  }
+  .user-name p {
+    color: #7e7e7e;
+  }
+  .edit-profile-btn {
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    margin-right: auto;
+  }
+  .edit-profile-btn:hover {
+    background-color: #f5f9fc;
+  }
+  .edit-profile-title {
+    padding: 20px 0px;
+    border-bottom: solid 1px #dbd9d9;
+  }
+  .edit-profile-title-2 {
+    color: grey;
+    font-weight: 400;
+  }
+  .edit-profile-form {
+    padding: 20px;
+    border: solid 1px #dbd9d9;
+    border-radius: 5px;
+  }
+  .edit-profile-form label h3 {
+    margin: 0%;
+    padding: 3px 0px;
+  }
+  .edit-profile-form label p {
+    margin: 0%;
+    padding: 3px 0px;
+  }
+  .edit-profile-form label input,
+  .edit-profile-form label textarea {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px #dbd9d9;
+    width: 50%;
+  }
+  
+  .user-submit-btn {
+    padding: 14px 10px;
+    background-color: #0a95ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .user-submit-btn:hover {
+    background-color: #0074cc;
+  }
+  
+  .user-cancel-btn {
+    padding: 14px 10px;
+    color: #0a95ff;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .follow{
+   margin-left: 0px;
+   background-color: white;
+   border:color(from color srgb r g b);
+   border-color: black;
+   border-radius: 3px;
+   color: black;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   line-height: 1.5;
+   padding: 3px 5px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+  }
+  .like:hover, .liked{
+    color: #0074cc;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: #0074cc;
+  }
+  .follow:hover, .followed{
+    color: #0074cc;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: #0074cc;
+  }
+  
+  .following-btn {
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    
+  }
+  .following-btn:hover {
+    background-color: #f5f9fc;
+  }
+  .post-video {
+    padding: 10px 5px;
+    margin-top: 20px;
+  }
+  .post-video:hover{
+    cursor: pointer;
+  }

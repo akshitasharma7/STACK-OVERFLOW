@@ -1,0 +1,144 @@
+.main-bar {
+    width: calc(100% - 300px - 24px);
+    float: left;
+    margin: 25px 0px;
+    padding: 0;
+  }
+  
+  .main-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+  }
+  
+ 
+  
+  .main-bar-header h1 {
+    font-weight: 400;
+  }
+  
+  .main-bar-header .ask-btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #009dff;
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .main-bar-header .ask-btn:hover {
+    background-color: #0086d8;
+  }
+  
+  .display-question-container {
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fdf7e2;
+    border-bottom: solid 1px #edeff0;
+  }
+  
+  .display-question-container .display-votes-ans {
+    padding: 10px;
+  }
+  
+  .display-question-container .display-votes-ans p {
+    margin: 0%;
+    text-align: center;
+  }
+  
+  .display-question-details {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 0%;
+  }
+  
+  .question-title-link {
+    text-decoration: none;
+    color: #037ecb;
+    transition: 0.3s;
+  }
+  
+  .question-title-link:hover {
+    color: #009dff;
+  }
+  
+  .display-tags-time .display-tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .display-tags-time {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .display-tags-time .display-tags p {
+    margin: 2px;
+    padding: 4px;
+    font-size: 13px;
+    background-color: #edeff0;
+    color: #39739d;
+  }
+  .display-tags-time .display-time {
+    font-size: 13px;
+  }
+  .fixed-txt {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  .moving-txt {
+    margin-left: -40px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+  }
+  .moving-txt li {
+    list-style: none;
+    font-size: 30px;
+    font-weight: 350;
+    color: #d2c9aa;
+    animation: slide 6s steps(4) infinite;
+    position: relative;
+    top: 0;
+  }
+  @keyframes slide {
+    100% {
+      top: -360px;
+     
+    }
+  }
+  .moving-txt li span {
+    position: relative;
+  }
+  .moving-txt li span::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-left: 2px solid;
+    animation: typing 1.5s steps(10) infinite;
+    margin-top: 30px;
+  }
+  @keyframes typing {
+    100% {
+      left: 100%;
+     
+    }
+  }
+  .ask-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 25px;
+  }
